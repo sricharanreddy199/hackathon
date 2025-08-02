@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fun with Randomness</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>🎨 Fun with Randomness</h1>
+    </header>
+
+    <main class="container">
+        <!-- Quotes Generator -->
+        <section class="card">
+            <h2>💡 Inspirational Quotes</h2>
+            <p id="quote">Click below to get inspired!</p>
+            <button onclick="generateQuote()">Get Quote</button>
+        </section>
+
+        <!-- Background Color Changer -->
+        <section class="card">
+            <h2>🎨 Mood Booster</h2>
+            <p>Click to change background color</p>
+            <button onclick="changeBackground()">Change Color</button>
+        </section>
+
+        <!-- Password Generator -->
+        <section class="card">
+            <h2>🔑 Strong Password Generator</h2>
+            <input type="text" id="password" readonly>
+            <div class="btn-group">
+                <button onclick="generatePassword()">Generate</button>
+                <button onclick="copyPassword()">Copy</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Fun with Randomness | Created by Charan</p>
+    </footer>
+</body>
+</html>
